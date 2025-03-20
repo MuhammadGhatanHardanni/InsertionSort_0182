@@ -54,3 +54,19 @@ j--; // Step 4b
 arr [j + 1] = temp; // Step 5
 }
 }
+
+void display()
+{
+cout << endl; // Output baris kosong
+cout << "=================================" <<endl;
+cout << "Total Pass = " << n-1 <<endl; // Count element movement
+cout << "=================================" <<endl; // Output Ke Layar
+cout << "Element Array yang telah tersusun" <<endl; // Output Ke Layar
+cout << "=================================" <<endl; // Output Ke Layar
+
+for (int j = 0; j < n; j++)
+{ // Looping dengan j dimulai dari 0 hingga n-1
+cout << arr[j] << endl; // Output Ke Layar
+}
+cout << endl; // Output Baris Kosong
+}
