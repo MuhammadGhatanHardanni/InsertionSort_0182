@@ -24,4 +24,10 @@ cout << endl; // Membuat jarak per baris program
 cout << "=======================" << endl; // Membuat Tampilan susunan data element array
 cout << "Masukkan Element Array" << endl;
 cout << "=======================" << endl;
+
+for (int i = 0; i < n; i++) // Menggunakan perulangan for untuk  Menyimpan data pada array
+{
+cout << "Data Ke-" << (i + 1) << ": "; // Membuat atau menginputkan nilai data n
+cin >> arr [i]; // Menyimpan nilai data n kedalam array arr 
+}
 }
